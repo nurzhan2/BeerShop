@@ -1,0 +1,12 @@
+{
+  "name": "hmelnaya-manufaktura",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сайт пивоварни Хмельная Мануфактура",
+  "scripts": {
+    "start": "serve . -l $PORT"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  }
+}

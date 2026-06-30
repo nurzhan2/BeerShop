@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Каталог пива — Хмельная Мануфактура</title>
+<meta name="description" content="Полный каталог сортов Хмельной Мануфактуры: светлое, тёмное, пшеничное пиво и танковая линейка из ЦКТ. Кеговое и бутылочное.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header scrolled">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><img src="assets/logo-mark.png" alt="Хмельная Мануфактура"></span>
+      <span>Хмельная Мануфактура<small>пивоварня полного цикла</small></span>
+    </a>
+    <nav class="main-nav">
+      <a href="catalog.html" class="active">Каталог</a>
+      <a href="brewing.html">Как варим</a>
+      <a href="tanks.html">Танковое пиво</a>
+      <a href="partners.html">Магазинам и барам</a>
+      <a href="history.html">История</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <div class="header-social">
+        <a href="https://www.instagram.com/esaulskiy_kombinat" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor"/></svg>
+        </a>
+        <a href="https://vk.ru/escombinat" target="_blank" rel="noopener" aria-label="VK">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9c.3 6 3.4 9.6 9 9.6h.6v-3.4c2 .2 3.6 1.7 4.2 3.4h3c-.8-3-3-4.8-4.4-5.5 1.4-.9 3.2-2.7 3.6-5.4h-3c-.5 2.1-2.1 3.9-3.4 4.1V6.7h-3v6c-1.2-.2-2.8-2.1-3-6H3z"/></svg>
+        </a>
+      </div>
+      <a href="contacts.html" class="btn btn-outline">Связаться</a>
+      <button class="nav-toggle" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumbs"><a href="index.html">Главная</a><span class="sep">/</span>Каталог</div>
+    <span class="eyebrow">Линейка пива</span>
+    <h1>Каталог</h1>
+    <p class="lede">Классика и эксперименты: 17 сортов кегового и бутылочного пива, включая танковую линейку из ЦКТ. Параметры и описание — под каждой карточкой. Каждый сорт — с фотографией в бокале, параметрами и описанием.</p>
+  </div>
+</section>
+
+<section style="padding-top: 0;">
+  <div class="container">
+    <div class="catalog-filters reveal">
+      <button class="filter-btn active" data-filter="all">Все сорта</button>
+      <button class="filter-btn" data-filter="cct">ЦКТ · Танковое</button>
+      <button class="filter-btn" data-filter="light">Светлое</button>
+      <button class="filter-btn" data-filter="dark">Тёмное</button>
+      <button class="filter-btn" data-filter="wheat">Пшеничное</button>
+      <button class="filter-btn" data-filter="unfiltered">Нефильтрованное</button>
+    </div>
+
+    <div class="beer-grid reveal">
+
+      <article class="beer-card" data-type="cct">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-01-tankovoe-sovetskoe.png" alt="Танковое Советское" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">ЦКТ · Танковое</span>
+          <h3>Танковое Советское</h3>
+          <p>Пиво живое, непастеризованное — все полезные вещества от солода и хмеля сохранены. Естественная газация делает его похожим на пиво времён СССР: натуральное и легкое на вкус. Привозим напрямую с завода — прямые и частые поставки гарантируют свежесть.</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>2/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="light">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-02-pilzner.png" alt="Пилзнер" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Светлое</span>
+          <h3>Пилзнер</h3>
+          <p>Пилзнер (Pilsner) - это один из сортов премиальной линейки от Хмельной Мануфактуры, сваренный в стиле немецкий Пилс.</p>
+          <div class="beer-specs"><div>Крепость<span>4.5%</span></div><div>Горечь<span>4/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="light">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-03-nemetskoe-svetloe.png" alt="Немецкое Светлое" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Светлое</span>
+          <h3>Немецкое Светлое</h3>
+          <p>Классический светлый лагер, сваренный по традиционным немецким технологиям.</p>
+          <div class="beer-specs"><div>Крепость<span>4.5%</span></div><div>Плотность<span>12°</span></div><div>Горечь<span>3/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="wheat">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-11-pshenichnoe-vayzen.png" alt="Пшеничное Вайзен" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Пшеничное</span>
+          <h3>Пшеничное (Вайзен)</h3>
+          <p>Это пшеничное пиво верхового брожения. Термин происходит от немецкого слова Weizen («пшеница»).Вайзен является одним из сортов пива премиальной линейки от Хмельной…</p>
+          <div class="beer-specs"><div>Крепость<span>5%</span></div><div>Плотность<span>12.5°</span></div><div>Горечь<span>2/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="light">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-04-supermyagkoe.png" alt="Супермягкое" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Светлое</span>
+          <h3>Супермягкое</h3>
+          <p>Светлое пиво с мягким и спокойным вкусом. Благодаря фильтрации пиво получается чистым и приятным, а сбалансированный состав делает его особенно питким и комфортным в…</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>1/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="light">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-05-zhigulevskoe-1954.png" alt="Жигулёвское рецепт 1954" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Светлое</span>
+          <h3>Жигулёвское рецепт 1954</h3>
+          <p>Это светлый лагер, сваренный по традиционной рецептуре и обладает тем самым вкусом, как в советские времена. Отборное сырье обеспечивает пиву высокие вкусовые качества.</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>2/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="light">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-06-esaulskoe-svetloe.png" alt="Есаульское светлое" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Светлое</span>
+          <h3>Есаульское светлое</h3>
+          <p>Классический светлый лагер.</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>1/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="light">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-07-chelyabinskoe.png" alt="Челябинское" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Светлое</span>
+          <h3>Челябинское</h3>
+          <p>Это классический региональный лагер, ориентированный на любителей традиционных, солодовых сортов.</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>12°</span></div><div>Горечь<span>2/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="light">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-08-zhigulevskoe-gost.png" alt="Жигулёвское ГОСТ" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Светлое</span>
+          <h3>Жигулёвское ГОСТ</h3>
+          <p>Это светлое пиво, сваренное по советскому государственному стандарту (ГОСТ), который определял строгие требования к качеству и составу напитка.</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>3/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="unfiltered">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-09-esaulskoe-nf.png" alt="Есаульское Нефильтрованное" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Нефильтрованное</span>
+          <h3>Есаульское Н/ф</h3>
+          <p>Есаульское нефильтрованное - светлое пиво с мягким и сбалансированным характером. Благодаря отсутствию фильтрации и пастеризации сохраняет натуральную свежесть,…</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>1/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="wheat">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-12-pshenichnoe-greypfrut.png" alt="Пшеничное Грейпфрут" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Пшеничное</span>
+          <h3>Пшеничное Грейпфрут</h3>
+          <p>Плотный, полнотелый насыщенный сорт. Помимо хмелевых и солодовых нот в букете присутствуют приятные освежающие ароматы цитрусовых.</p>
+          <div class="beer-specs"><div>Крепость<span>5%</span></div><div>Плотность<span>12.5°</span></div><div>Горечь<span>2/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="unfiltered">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-10-zolotoy-svar-nf.png" alt="Золотой свар нефильтрованное" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Нефильтрованное</span>
+          <h3>Золотой свар н/ф</h3>
+          <p>Белое, мягкое, сладковатое пиво с нежно-белой текстурой и выраженным телом напитка. Хмель и горечь присутствуют очень слабо, основной акцент сделан на солоде.</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>1/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="dark">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-13-esaulskoe-yantar.png" alt="Есаульское Янтарное Амбер Эль" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Тёмное</span>
+          <h3>Есаульское Янтарное (Амбер Эль)</h3>
+          <p>Пиво  «Амбер эль» (Amber Ale) - это стиль пива, который характеризуется сбалансированным сочетанием солодовой сладости и умеренной хмелевой горечи.</p>
+          <div class="beer-specs"><div>Крепость<span>4.5%</span></div><div>Плотность<span>12°</span></div><div>Горечь<span>2/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="dark">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-14-cheshskiy-granat.png" alt="Чешский Гранат" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Тёмное</span>
+          <h3>Чешский Гранат</h3>
+          <p>Пиво сварено в стиле темный чешский лагер.В составе присутствуют 3 солода: карамельный, мюнхенский и жженый.</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>1/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="dark">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-15-nemetskoe-temnoe.png" alt="Немецкое Тёмное" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Тёмное</span>
+          <h3>Немецкое Тёмное</h3>
+          <p>Этот сорт представляет собой тёмный лагер, выполненный с ориентацией на классические немецкие традиции пивоварения.</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>1/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="dark">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-16-el-temnoe.png" alt="Эль Тёмное" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Тёмное</span>
+          <h3>Эль Тёмное</h3>
+          <p>Эль тёмный - мягкое тёмное пиво со сладким вкусом и насыщенной солодовой основой. Благодаря фильтрации вкус остаётся чистым и лёгким, а тёмные солода придают напитку…</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>1/5</span></div></div>
+        </div>
+      </article>
+
+      <article class="beer-card" data-type="dark">
+        <div class="beer-card-media"><img src="assets/beer-photos/beer-17-braun-el.png" alt="Браун Эль" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+        <div class="beer-card-body">
+          <span class="style-tag">Тёмное</span>
+          <h3>Браун Эль</h3>
+          <p>Сварено с использованием четырех видов солода: ячменный светлый солод, мюнхенский темный солод, карамельный солод, и солод жженный.</p>
+          <div class="beer-specs"><div>Крепость<span>4%</span></div><div>Плотность<span>11°</span></div><div>Горечь<span>2/5</span></div></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-soft">
+  <div class="container" style="text-align:center;">
+    <span class="eyebrow" style="justify-content:center;">Скоро в каталоге</span>
+    <h2 style="margin-top: 16px;">Безалкогольная линейка</h2>
+    <p class="lede" style="margin: 18px auto 32px;">Готовим квас, воду и лимонады собственного производства. Описание и фото добавим, как только линейка будет готова к запуску.</p>
+  </div>
+</section>
+
+<section style="text-align:center;">
+  <div class="container">
+    <span class="eyebrow" style="justify-content:center;">Не нашли свой вкус?</span>
+    <h2 style="margin-top: 16px;">Расскажите, что вы ищете</h2>
+    <p class="lede" style="margin: 18px auto 32px;">Подберём подходящий сорт под формат вашей точки продаж или поможем составить пробную партию.</p>
+    <a href="contacts.html" class="btn btn-primary">Написать нам</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <span class="brand-mark"><img src="assets/logo-mark.png" alt="Хмельная Мануфактура"></span>
+          <span>Хмельная Мануфактура</span>
+        </a>
+        <p>Пивоварня полного цикла. Основана в 2018 году.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Навигация</h4>
+        <ul>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="brewing.html">Как варим</a></li>
+          <li><a href="tanks.html">Танковое пиво</a></li>
+          <li><a href="history.html">История</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Партнёрам</h4>
+        <ul>
+          <li><a href="partners.html">Магазинам и барам</a></li>
+          <li><a href="partners.html#distributors">Дистрибьюторам</a></li>
+          <li><a href="contacts.html">Стать поставщиком</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="tel:88002220041">8-800-222-00-41</a></li>
+          <li><a href="mailto:info@ek74.ru">info@ek74.ru</a></li>
+          <li><a href="contacts.html">Адрес и карта</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© Хмельная Мануфактура, 2026. Все права защищены.</p>
+      <div class="footer-warning">Чрезмерное употребление пива вредит вашему здоровью</div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
